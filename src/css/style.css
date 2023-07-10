@@ -7,12 +7,11 @@
 :root {
 	--font-title: normal 700 1.2em Oxanium, monospace;
 	--font-p: normal normal 1em Oxanium, monospace;
-	--border-hero: 4px solid rgb(119, 236, 240);
-	--border-title: 2px solid rgb(119, 236, 240);
+	--border-hero: 4px solid #47f4ff;
+	--border-title: 3px solid #77ecf0;
 }
 
 body {
-	min-width: 440px;
 	background-color: #000;
 	margin-bottom: 40px;
 }
@@ -45,7 +44,7 @@ body::before {
 }
 
 .heroes-container {
-	max-height: calc(100vh - 152px);
+	max-height: calc(100vh - 180px);
 	width: auto;
 	display: flex;
 	justify-content: center;
@@ -81,7 +80,6 @@ body::before {
 }
 
 .choose-hero .heroes .hero {
-	/* max-width: 108px; */
 	min-width: 108px;
 	list-style-type: none;
 	height: 170px;
@@ -89,7 +87,7 @@ body::before {
 	flex-basis: 20%;
 }
 
-.hero:hover {
+.selected {
 	box-shadow: 0px 0px 24px 7px  rgba(31, 143, 235, 0.699);
 	cursor: pointer;
 }
@@ -128,7 +126,6 @@ body::before {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	border-bottom: var(--border-title);
-	border-radius: 2px;
 	padding-bottom: 5px;
 }
 

@@ -11,7 +11,7 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="src/css/style.css" />
-		<link rel="stylesheet" href="src/css/responsive.css	">
+		<link rel="stylesheet" href="src/css/responsive.css	" />
 	</head>
 	<body>
 		<header class="first-header">
@@ -26,67 +26,101 @@
 			<section class="choose-hero">
 				<h1 class="title">Select a Hero</h1>
 				<ul class="heroes">
-					<li class="hero selected" id="cyclop">
+					<li
+						class="hero selected"
+						id="cyclop"
+						data-description="Cyclops emits powerful beams of energy from his eyes,
+						and can only control the beams with the aid of special
+						eyewear which he must wear at all times"
+					>
 						<img
 							class="img-hero"
-							src="src/images/card-ciclope.jpg"
+							src="src/images/card-cyclop.jpg"
 							alt="Cyclop Hero"
 						/>
 					</li>
 
-					<li class="hero" id="jean-grey">
+					<li
+						class="hero"
+						id="jean-grey"
+						data-description="Jean Gray is an omega-level mutant and the main avatar of the Phoenix Force, in which she manifests cosmic powers. Telepathy and telekinesis"
+					>
 						<img
 							class="img-hero"
 							src="src/images/card-jean-grey.jpg"
-							alt="Cyclop Hero"
+							alt="jean-grey Hero"
 						/>
 					</li>
 
-					<li class="hero" id="shadowcat">
+					<li
+						class="hero"
+						id="shadowcat"
+						data-description="She has the power to pass through solid matter, energy fields, optic blasts while remaining intact, and also has the power to walk on air."
+					>
 						<img
 							class="img-hero"
-							src="src/images/card-lince-negra.jpg"
-							alt="Cyclop Hero"
+							src="src/images/card-shadowcat.jpg"
+							alt="shadowcat Hero"
 						/>
 					</li>
 
-					<li class="hero" id="storm">
+					<li
+						class="hero"
+						id="storm"
+						data-description="She is able to control the weather and atmosphere and is considered to be one of the most powerful mutants on the planet, and one of the most powerful beings in the Marvel Universe"
+					>
 						<img
 							class="img-hero"
-							src="src/images/card-tempestade.jpg"
-							alt="Cyclop Hero"
+							src="src/images/card-storm.jpg"
+							alt="storm Hero"
 						/>
 					</li>
 
-					<li class="hero" id="rogue">
+					<li
+						class="hero"
+						id="rogue"
+						data-description="She has the power to absorb the vitality and memory of the people she touches or in the case of mutants the powers and memory, but only temporarily."
+					>
 						<img
 							class="img-hero"
-							src="src/images/card-vampira.jpg"
-							alt="Cyclop Hero"
+							src="src/images/card-rogue.jpg"
+							alt="rogue Hero"
 						/>
 					</li>
 
-					<li class="hero" id="wolverine">
+					<li
+						class="hero"
+						id="wolverine"
+						data-description="He is a mutant with animal-keen senses, enhanced physical capabilities, a powerful regenerative ability known as a healing factor, and three retractable claws in each hand"
+					>
 						<img
 							class="img-hero"
 							src="src/images/card-wolverine.jpg"
-							alt="Cyclop Hero"
+							alt="wolverine Hero"
 						/>
 					</li>
 
-					<li class="hero" id="nightcrawler">
+					<li
+						class="hero"
+						id="nightcrawler"
+						data-description="Nightcrawler possesses superhuman agility, the ability to teleport, and adhesive hands and feet"
+					>
 						<img
 							class="img-hero"
-							src="src/images/card-noturno.jpg"
-							alt="Cyclop Hero"
+							src="src/images/card-nightcrawler.jpg"
+							alt="nightcrawler Hero"
 						/>
 					</li>
 
-					<li class="hero" id="magneto">
+					<li
+						class="hero"
+						id="magneto"
+						data-description="Magneto is a mutant with the power to manipulate magnetic fields to achieve a wide range of effects. He is classified as an Omega-level mutant."
+					>
 						<img
 							class="img-hero"
 							src="src/images/card-magneto.jpg"
-							alt="Cyclop Hero"
+							alt="magneto Hero"
 						/>
 					</li>
 				</ul>
@@ -95,7 +129,7 @@
 			<section class="chosen-hero">
 				<img
 					class="large-hero-img"
-					src="src/images/card-ciclope.png"
+					src="src/images/card-cyclop.png"
 					alt="Chosen hero"
 				/>
 
@@ -109,5 +143,7 @@
 				</div>
 			</section>
 		</main>
+
+		<script src="./src/main.js"></script>
 	</body>
 </html>
